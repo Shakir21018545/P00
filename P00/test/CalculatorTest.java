@@ -46,10 +46,10 @@ public class CalculatorTest {
 	@Test
 	public final void testDivide() {
 		int a = 100;
-		int b = 5;
+		int b = 10;
 		CalculateTest cal = new CalculateTest();
 	    int actual = cal.divide(a,b);
-	    int expected = 20;
+	    int expected = 10;
 	    assertEquals(expected,actual);
 	}
 
