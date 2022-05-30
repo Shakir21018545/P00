@@ -52,10 +52,7 @@ public class CalculatorTest {
 	    int expected = 20;
 	    assertEquals(expected,actual);
 	}
-	
-	
-	
-	
+
 	@After
 	public void tearDown() throws Exception {
 	}
